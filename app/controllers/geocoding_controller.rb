@@ -16,8 +16,8 @@ class GeocodingController < ApplicationController
     # ==========================================================================
 
 
-
-    @latitude = "Replace this string with your answer."
+a=@street_address
+    @latitude = a.latitude
 
     @longitude = "Replace this string with your answer."
 
